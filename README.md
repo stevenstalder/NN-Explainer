@@ -51,6 +51,12 @@ Identifying the parts of an input image that contribute to the classification ou
 │   │   ├── print_mean_scores.py                      - script to print out mean scores for values in results.npz file
 │   │   ├── rise.py                                   - generates RISE masks for evaluation
 │   │   ├── rt_saliency.py                            - generates Real-Time Saliency masks for evaluation
+│   │   ├── IGOS_pp                                   - directory with code for iGOS++
+│   │   │   ├── args.py                               - default arguments for iGOS++
+│   │   │   ├── igos_utils.py                         - utility functions for iGOS++
+│   │   │   ├── main.py                               - main script to retrieve iGOS++ masks
+│   │   │   ├── methods.py                            - methods (iGOS and iGOS++) to choose from
+│   │   │   └── methods_helper.py                     - helper functions for the methods
 │   │   ├── eval_utils
 │   │   │   ├── assessment_metrics.py                 - defines metrics for evaluation
 │   │   │   ├── compute_masks.py                      - helper function to produce EP and GP masks
