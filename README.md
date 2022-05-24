@@ -34,8 +34,9 @@ Identifying the parts of an input image that contribute to the classification ou
 ├── notebooks                                         - Jupyter notebooks for evaluations
 ├── src                                             
 │   ├── config_files                                  
-│   │   ├── explainer_training                        - contains config files to train the explainer on pretrained classifiers
-│   │   └── misc                                      - contains config files to train a classifier & test a pretrained explainer
+│   │   ├── classifier_training                       - contains config files to train VGG-16 and Resnet-50 classifiers on VOC or COCO
+│   │   ├── explainer_training                        - contains config files to train an Explainer on a pretrained classifier
+│   │   └── testing_and_mask_saving                   - contains config files for testing the explainer and saving its attribution masks
 │   ├── data
 │   │   ├── dataloader.py                             - defines VOC, COCO and CUB data modules
 │   │   └── dataset.py                                - defines custom COCO and CUB datasets
