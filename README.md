@@ -1,5 +1,20 @@
 # What You See is What You Classify: Black Box Attributions
 
+This repository contains the code for our paper "What You See is What You Classify: Black Box Attributions" ([view on arXiv](https://arxiv.org/abs/2205.11266)). If you want to use this code, please cite it as follows:
+
+```
+@misc{https://doi.org/10.48550/arxiv.2205.11266,
+  doi = {10.48550/ARXIV.2205.11266},
+  url = {https://arxiv.org/abs/2205.11266},
+  author = {Stalder, Steven and Perraudin, Nathanaël and Achanta, Radhakrishna and Perez-Cruz, Fernando and Volpi, Michele},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {What You See is What You Classify: Black Box Attributions},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
+
 ## Table of Contents
 * [About the Project](#about-the-project)
 * [Folder Structure](#folder-structure)
@@ -161,7 +176,7 @@ Note that if you use a logger, the model weights (i.e. the .ckpt file) will also
 ### Producing Segmentation Masks
 
 In the folder [`src/evaluation`](src/evaluation/), we have added several python scripts to produce the masks required for evaluation against the groundtruth segmentation masks. There is one script for every of the following methods:
-* Explainer (ours)
+* [Explainer (ours)](https://arxiv.org/abs/2205.11266)
 * [Grad-CAM](https://arxiv.org/abs/1610.02391)
 * [RISE](https://arxiv.org/abs/1806.07421)
 * [Extremal Perturbations](https://arxiv.org/abs/1910.08485)
