@@ -3,15 +3,11 @@
 This repository contains the code for our paper "What You See is What You Classify: Black Box Attributions" ([view on arXiv](https://arxiv.org/abs/2205.11266)). If you want to use this code, please cite it as follows:
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2205.11266,
-  doi = {10.48550/ARXIV.2205.11266},
-  url = {https://arxiv.org/abs/2205.11266},
-  author = {Stalder, Steven and Perraudin, Nathanaël and Achanta, Radhakrishna and Perez-Cruz, Fernando and Volpi, Michele},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {What You See is What You Classify: Black Box Attributions},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+@article{stalder2022neurips,
+ title={What You See is What You Classify: Black Box Attributions},
+  author={Stalder, Steven and Perraudin, Nathana{\”e}l and Achanta, Radhakrishna and Perez-Cruz, Fernando and Volpi, Michele},
+  journal={arXiv preprint arXiv:2205.11266},
+  year={2022}
 }
 ```
 
