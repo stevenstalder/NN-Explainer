@@ -1,6 +1,6 @@
 # What You See is What You Classify: Black Box Attributions
 
-This repository contains the code for our paper "What You See is What You Classify: Black Box Attributions" ([view on arXiv](https://arxiv.org/abs/2205.11266)). If you want to use this code, please cite it as follows:
+This repository contains the code for our paper "What You See is What You Classify: Black Box Attributions" ([view on OpenReview](https://openreview.net/forum?id=I-ggHgon-Az)). If you want to use this code, please cite it as follows:
 
 ```
 @inproceedings{
