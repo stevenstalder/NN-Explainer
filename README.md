@@ -3,11 +3,14 @@
 This repository contains the code for our paper "What You See is What You Classify: Black Box Attributions" ([view on arXiv](https://arxiv.org/abs/2205.11266)). If you want to use this code, please cite it as follows:
 
 ```
-@article{stalder2022neurips,
- title={What You See is What You Classify: Black Box Attributions},
-  author={Stalder, Steven and Perraudin, Nathana{\”e}l and Achanta, Radhakrishna and Perez-Cruz, Fernando and Volpi, Michele},
-  journal={arXiv preprint arXiv:2205.11266},
-  year={2022}
+@inproceedings{
+stalder2022wyswyc,
+title={What You See is What You Classify: Black Box Attributions},
+author={Steven Stalder and Nathana{\"e}l Perraudin and Radhakrishna Achanta and Fernando Perez-Cruz and Michele Volpi},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=I-ggHgon-Az}
 }
 ```
 
