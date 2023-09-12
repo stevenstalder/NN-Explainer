@@ -1,16 +1,18 @@
 # What You See is What You Classify: Black Box Attributions
 
-This repository contains the code for our paper "What You See is What You Classify: Black Box Attributions" ([view on OpenReview](https://openreview.net/forum?id=I-ggHgon-Az)). If you want to use this code, please cite it as follows:
+This repository contains the code for our paper "What You See is What You Classify: Black Box Attributions" ([view in NeurIPS proceedings](https://proceedings.neurips.cc/paper_files/paper/2022/hash/0073cc73e1873b35345209b50a3dab66-Abstract-Conference.html)). If you want to use this code, please cite it as follows:
 
 ```
-@inproceedings{
-stalder2022wyswyc,
-title={What You See is What You Classify: Black Box Attributions},
-author={Steven Stalder and Nathana{\"e}l Perraudin and Radhakrishna Achanta and Fernando Perez-Cruz and Michele Volpi},
-booktitle={Advances in Neural Information Processing Systems},
-editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
-year={2022},
-url={https://openreview.net/forum?id=I-ggHgon-Az}
+@inproceedings{NEURIPS2022_0073cc73,
+ author = {Stalder, Steven and Perraudin, Nathanael and Achanta, Radhakrishna and Perez-Cruz, Fernando and Volpi, Michele},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {84--94},
+ publisher = {Curran Associates, Inc.},
+ title = {What You See is What You Classify: Black Box Attributions},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/0073cc73e1873b35345209b50a3dab66-Paper-Conference.pdf},
+ volume = {35},
+ year = {2022}
 }
 ```
 
